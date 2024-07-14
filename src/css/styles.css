@@ -1,0 +1,88 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    background-color: #ededed;
+    color: #252324;
+    text-align: center;
+    background-image: url("../imagens/pexels-pixabay-314726.jpg");
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: rgb(0, 0, 0, 0.1) 0 10px 50px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.busca {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input {
+    background-color: #469cf7;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #252324;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.busca .btn-busca {
+    background-color: #469cf7;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.busca .lupa {
+    width: 30px;
+    padding: 6px;
+    opacity: 0.8;
+}
+
+.informacao-principal {
+    margin: 30px;
+}
+
+.informacao-principal  h1 {
+    font-size: 18px;
+}
+
+.informacao-principal .temperatura {
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.informacao-principal .condicao {
+    font-size: 20px;
+}
+
+.informacao-secundaria {
+    
+    color: hsla(0, 89%, 40%, 0);
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacao-secundaria  .humidade,
+.informacao-secundaria  .velocidade-do-vento {
+    color: #252324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
